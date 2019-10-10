@@ -5,9 +5,9 @@ const ImageSection = props => {
 
   let CardImageStyle = {
     vertical: true,
-    bg: "background.0",
+    bg: "neutral__100",
     height: "100px",
-    width: "calc(100% - 24px)",
+    width: "calc(100% )",
     left: true,
     top: true,
     py: "1",
@@ -18,7 +18,7 @@ const ImageSection = props => {
     backgroundRepeat: "no-repeat",
   };
   return (
-    <Stack {...CardImageStyle} />
+    <Stack {...CardImageStyle} style={{backgroundBlendMode: "multiply"}} />
   );
 };
 
