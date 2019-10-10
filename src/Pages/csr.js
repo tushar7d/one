@@ -1,8 +1,30 @@
 import React from 'react';
+import Layout from '../Modules/layout';
+import {Stack} from '../Primitives'
 
-function Csr() {
+import {Link} from '@reach/router'
+
+import CardProtoVertical  from '../Modules/CardProtoVertical'
+
+
+let ScrollContainer = props =>{
+  return <Stack vertical center top width ="100vw" height="auto" >{props.children}</Stack>
+}
+
+
+function Csr(props) {
   return (
-   <div>hello</div>
+    <Layout>
+      <ScrollContainer>
+      
+      {props.offers.map((offer,index) => (
+          <Link key={index} to={`/cis/${index}`}>
+          <CardProtoVertical  offer={offer} />
+          </Link>
+        ))}
+      </ScrollContainer>
+  
+   </Layout>
   );
 }
 
