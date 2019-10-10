@@ -12,7 +12,7 @@ let style = {
  
 }
 
-  return<Stack {...style}>{props.children}</Stack>
+  return<Stack vertical {...style} {...props} />
 }
 
 export default Section

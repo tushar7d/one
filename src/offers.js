@@ -10,7 +10,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -22,7 +23,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -32,15 +32,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£123",
+      total: "123",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "Great Deal",
     supplier: "https://mediaim.expedia.com/cars/logos/EP.png",
     rating: "59%",
@@ -55,7 +59,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -67,7 +72,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -77,15 +81,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£126",
+      total: "126",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -109,8 +117,7 @@ let offers = [
       {
         name: "reward points",
         description: "Earn Expedia Rewards points"
-      },
-     
+      }
     ],
     location: [
       {
@@ -120,15 +127,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£129",
+      total: "129",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -152,8 +163,7 @@ let offers = [
       {
         name: "reward points",
         description: "Earn Expedia Rewards points"
-      },
-     
+      }
     ],
     location: [
       {
@@ -163,15 +173,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£125",
+      total: "125",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "Great Deal",
     supplier: "https://mediaim.expedia.com/cars/logos/EP.png",
     rating: "59%",
@@ -186,7 +200,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -198,7 +213,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -208,15 +222,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£129",
+      total: "129",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -232,7 +250,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -244,7 +263,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -254,15 +272,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£125",
+      total: "125",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "Great Deal",
     supplier: "https://mediaim.expedia.com/cars/logos/EP.png",
     rating: "59%",
@@ -277,7 +299,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -289,7 +312,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -299,15 +321,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£122",
+      total: "122",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "Great Deal",
     supplier: "https://mediaim.expedia.com/cars/logos/EP.png",
     rating: "59%",
@@ -322,7 +348,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -334,7 +361,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -344,15 +370,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre"
+          " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£131",
+      total: "131",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZE.png",
     rating: "79%",
@@ -368,7 +398,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -380,7 +411,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -390,15 +420,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£148",
+      total: "148",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -414,7 +448,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -426,7 +461,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -436,15 +470,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£135",
+      total: "135",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -460,7 +498,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -472,7 +511,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -482,15 +520,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre\n"
+          " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£133",
+      total: "133",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZE.png",
     rating: "79%",
@@ -506,7 +548,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -518,7 +561,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -528,15 +570,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre\n"
+          " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£139",
+      total: "139",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZE.png",
     rating: "79%",
@@ -552,7 +598,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -564,7 +611,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -574,15 +620,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£133",
+      total: "133",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "Great Deal",
     supplier: "https://mediaim.expedia.com/cars/logos/EP.png",
     rating: "59%",
@@ -597,7 +647,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -609,7 +660,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -619,15 +669,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£197",
+      total: "197",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -643,7 +697,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -655,7 +710,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -665,15 +719,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre\n"
+          " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£129",
+      total: "129",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZE.png",
     rating: "79%",
@@ -689,7 +747,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -701,7 +760,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -711,15 +769,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£143",
+      total: "143",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -735,7 +797,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -747,7 +810,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -757,15 +819,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£146",
+      total: "146",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "Great Deal",
     supplier: "https://mediaim.expedia.com/cars/logos/EP.png",
     rating: "59%",
@@ -780,7 +846,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -792,7 +859,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -802,15 +868,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre\n"
+          " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre\n"
       }
     ],
     price: {
       daily: "",
-      total: "£198",
+      total: "198",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZE.png",
     rating: "79%",
@@ -826,7 +896,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -838,7 +909,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -848,15 +918,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£135",
+      total: "135",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZD.png",
     rating: "78%",
@@ -871,7 +945,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -883,7 +958,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -893,15 +967,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£135",
+      total: "135",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZD.png",
     rating: "78%",
@@ -916,7 +994,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -928,7 +1007,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -938,15 +1016,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£148",
+      total: "148",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZL.png",
     rating: "83%",
@@ -961,7 +1043,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -973,7 +1056,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -983,15 +1065,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£134",
+      total: "134",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZD.png",
     rating: "78%",
@@ -1006,7 +1092,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1018,7 +1105,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1028,15 +1114,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£173",
+      total: "173",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZL.png",
     rating: "83%",
@@ -1051,7 +1141,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1063,7 +1154,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1073,15 +1163,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£131",
+      total: "131",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZL.png",
     rating: "83%",
@@ -1096,7 +1190,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1108,7 +1203,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1118,15 +1212,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£133",
+      total: "133",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZL.png",
     rating: "83%",
@@ -1141,7 +1239,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1153,7 +1252,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1163,15 +1261,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£182",
+      total: "182",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -1187,7 +1289,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1199,7 +1302,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1209,15 +1311,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre"
+          " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£248",
+      total: "248",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "Great Deal",
     supplier: "https://mediaim.expedia.com/cars/logos/ZE.png",
     rating: "79%",
@@ -1233,7 +1339,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1245,7 +1352,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1255,15 +1361,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£135",
+      total: "135",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZD.png",
     rating: "78%",
@@ -1278,7 +1388,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1290,7 +1401,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1300,15 +1410,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£158",
+      total: "158",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZD.png",
     rating: "78%",
@@ -1323,7 +1437,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1335,7 +1450,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1345,15 +1459,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£151",
+      total: "151",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZD.png",
     rating: "78%",
@@ -1368,7 +1486,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1380,7 +1499,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1390,15 +1508,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£284",
+      total: "284",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZD.png",
     rating: "78%",
@@ -1413,7 +1535,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1425,7 +1548,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1435,15 +1557,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£154",
+      total: "154",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZL.png",
     rating: "83%",
@@ -1458,7 +1584,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1470,7 +1597,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1480,15 +1606,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£172",
+      total: "172",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/EP.png",
     rating: "59%",
@@ -1503,7 +1633,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1515,7 +1646,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1525,15 +1655,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£232",
+      total: "232",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -1549,7 +1683,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1561,7 +1696,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1571,15 +1705,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£177",
+      total: "177",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZD.png",
     rating: "78%",
@@ -1594,7 +1732,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1606,7 +1745,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1616,15 +1754,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£147",
+      total: "147",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZD.png",
     rating: "78%",
@@ -1639,7 +1781,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1651,7 +1794,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1661,15 +1803,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£148",
+      total: "148",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZD.png",
     rating: "78%",
@@ -1684,7 +1830,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1696,7 +1843,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1706,15 +1852,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre"
+          " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£171",
+      total: "171",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZE.png",
     rating: "79%",
@@ -1730,7 +1880,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1742,7 +1893,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1752,15 +1902,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£178",
+      total: "178",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -1776,7 +1930,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1788,7 +1943,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1798,15 +1952,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£214",
+      total: "214",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -1822,7 +1980,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1834,7 +1993,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1844,15 +2002,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£177",
+      total: "177",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -1868,7 +2030,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1880,7 +2043,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1890,15 +2052,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£235",
+      total: "235",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -1914,7 +2080,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1926,7 +2093,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1936,15 +2102,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£230",
+      total: "230",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/EP.png",
     rating: "59%",
@@ -1959,7 +2129,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -1971,7 +2142,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -1981,15 +2151,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£189",
+      total: "189",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/EP.png",
     rating: "59%",
@@ -2004,7 +2178,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2016,7 +2191,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2026,15 +2200,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£252",
+      total: "252",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/EP.png",
     rating: "59%",
@@ -2049,7 +2227,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2061,7 +2240,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2071,15 +2249,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£211",
+      total: "211",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/EP.png",
     rating: "59%",
@@ -2094,7 +2276,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2106,7 +2289,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2116,15 +2298,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
+          " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£145",
+      total: "145",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZL.png",
     rating: "83%",
@@ -2139,7 +2325,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2151,7 +2338,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2161,15 +2347,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
+          " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£132",
+      total: "132",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZL.png",
     rating: "83%",
@@ -2184,7 +2374,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2196,7 +2387,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2206,15 +2396,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£458",
+      total: "458",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -2230,7 +2424,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2242,7 +2437,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2252,15 +2446,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£169",
+      total: "169",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -2276,7 +2474,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2288,7 +2487,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2298,15 +2496,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£407",
+      total: "407",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -2322,7 +2524,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2334,7 +2537,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2344,15 +2546,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£179",
+      total: "179",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -2368,7 +2574,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2380,7 +2587,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2390,15 +2596,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£253",
+      total: "253",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -2414,7 +2624,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2426,7 +2637,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2436,15 +2646,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre\nWindsor Bridge Road, Bath, GBR\n0.82 mile from Bath city centre\n0.82 mi from Bath city centre"
+          " 0.82 mi\nWindsor Bridge Road, Bath, GBR\n0.82 mi from Bath city centre\nWindsor Bridge Road, Bath, GBR\n0.82 mile from Bath city centre\n0.82 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£245",
+      total: "245",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "Great Deal",
     supplier: "https://mediaim.expedia.com/cars/logos/ZE.png",
     rating: "79%",
@@ -2460,7 +2674,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2472,7 +2687,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2482,15 +2696,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
+          " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£477",
+      total: "477",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZL.png",
     rating: "83%",
@@ -2505,7 +2723,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2517,7 +2736,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2527,15 +2745,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£272",
+      total: "272",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -2551,7 +2773,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2563,7 +2786,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2573,15 +2795,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£201",
+      total: "201",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -2597,7 +2823,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2609,7 +2836,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2619,15 +2845,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£311",
+      total: "311",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -2643,7 +2873,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2655,7 +2886,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2665,15 +2895,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£172",
+      total: "172",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -2689,7 +2923,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2701,7 +2936,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2711,15 +2945,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.34 miles from Bath city centre\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.34 miles from Bath city centre\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£485",
+      total: "485",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZD.png",
     rating: "78%",
@@ -2734,7 +2972,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2746,7 +2985,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2756,15 +2994,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£214",
+      total: "214",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -2780,7 +3022,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2792,7 +3035,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2802,15 +3044,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£224",
+      total: "224",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -2826,7 +3072,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2838,7 +3085,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2848,15 +3094,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£336",
+      total: "336",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -2872,7 +3122,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2884,7 +3135,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2894,15 +3144,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£235",
+      total: "235",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -2918,7 +3172,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2930,7 +3185,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2940,15 +3194,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
+          " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£133",
+      total: "133",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZL.png",
     rating: "83%",
@@ -2963,7 +3221,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -2975,7 +3234,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -2985,15 +3243,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£223",
+      total: "223",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3009,7 +3271,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3021,7 +3284,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3031,15 +3293,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£216",
+      total: "216",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3055,7 +3321,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3067,7 +3334,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3077,15 +3343,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£235",
+      total: "235",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3101,7 +3371,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3113,7 +3384,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3123,15 +3393,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£265",
+      total: "265",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3147,7 +3421,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3159,7 +3434,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3169,15 +3443,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.34 miles from Bath city centre\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.34 miles from Bath city centre\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£342",
+      total: "342",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZD.png",
     rating: "78%",
@@ -3192,7 +3470,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3204,7 +3483,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3214,15 +3492,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£248",
+      total: "248",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3238,7 +3520,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3250,7 +3533,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3260,15 +3542,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
+          " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£279",
+      total: "279",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZL.png",
     rating: "83%",
@@ -3283,7 +3569,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3295,7 +3582,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3305,15 +3591,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£327",
+      total: "327",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "Great Deal",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",
@@ -3329,7 +3619,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3341,7 +3632,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3351,15 +3641,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.34 miles from Bath city centre\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.34 miles from Bath city centre\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£393",
+      total: "393",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZD.png",
     rating: "78%",
@@ -3374,7 +3668,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3386,7 +3681,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3396,15 +3690,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
+          " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£335",
+      total: "335",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZL.png",
     rating: "83%",
@@ -3419,7 +3717,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3431,7 +3730,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3441,15 +3739,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£294",
+      total: "294",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3465,7 +3767,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3477,7 +3780,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3487,15 +3789,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£312",
+      total: "312",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3511,7 +3817,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3523,7 +3830,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3533,15 +3839,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£363",
+      total: "363",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3557,7 +3867,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3569,7 +3880,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3579,15 +3889,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£392",
+      total: "392",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3603,7 +3917,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3615,7 +3930,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3625,15 +3939,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£419",
+      total: "419",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3649,7 +3967,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3661,7 +3980,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3671,15 +3989,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£164",
+      total: "164",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3695,7 +4017,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3707,7 +4030,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3717,15 +4039,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£531",
+      total: "531",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3741,7 +4067,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3753,7 +4080,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3763,15 +4089,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£478",
+      total: "478",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3787,7 +4117,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3799,7 +4130,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3809,15 +4139,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£325",
+      total: "325",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3833,7 +4167,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3845,7 +4180,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3855,15 +4189,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£304",
+      total: "304",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3879,7 +4217,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3891,7 +4230,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3901,15 +4239,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£329",
+      total: "329",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3925,7 +4267,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3937,7 +4280,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3947,15 +4289,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£378",
+      total: "378",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -3971,7 +4317,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -3983,7 +4330,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -3993,15 +4339,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
+          " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£144",
+      total: "144",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZL.png",
     rating: "83%",
@@ -4016,7 +4366,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -4028,7 +4379,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -4038,15 +4388,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£299",
+      total: "299",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -4062,7 +4416,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -4074,7 +4429,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -4084,15 +4438,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£576",
+      total: "576",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "Great Deal",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -4108,7 +4466,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -4120,7 +4479,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -4130,15 +4488,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£279",
+      total: "279",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -4154,7 +4516,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -4166,7 +4529,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -4176,15 +4538,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£193",
+      total: "193",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -4200,7 +4566,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -4212,7 +4579,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -4222,15 +4588,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£310",
+      total: "310",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -4246,7 +4616,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -4258,7 +4629,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -4268,15 +4638,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£226",
+      total: "226",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -4292,7 +4666,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -4304,7 +4679,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -4314,15 +4688,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
+          " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£385",
+      total: "385",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZL.png",
     rating: "83%",
@@ -4337,7 +4715,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -4349,7 +4728,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -4359,15 +4737,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£349",
+      total: "349",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -4383,7 +4765,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "800 free miles total"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -4395,7 +4778,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -4405,15 +4787,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
+          " 10.72 mi\nNew Thomas Street, Bristol, GBR\n10.72 mi from Bath city centre\nNew Thomas Street, Bristol, GBR\n10.72 miles from Bath city centre\n10.72 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£293",
+      total: "293",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/SX.png",
     rating: "85%",
@@ -4429,7 +4815,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -4441,7 +4828,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -4451,15 +4837,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.34 miles from Bath city centre\n11.34 mi from Bath city centre"
+          " 11.34 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.34 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.34 miles from Bath city centre\n11.34 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£418",
+      total: "418",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZD.png",
     rating: "78%",
@@ -4474,7 +4864,8 @@ let offers = [
       transmission: "Automatic transmission",
       mileage: "Unlimited mileage"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -4486,7 +4877,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -4496,15 +4886,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
+          " 11.32 mi\nRupert Street, Bristol, GBR BS1 2PY\n11.32 mi from Bath city centre\nRupert Street, Bristol, GBR BS1 2PY\n11.32 miles from Bath city centre\n11.32 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£410",
+      total: "410",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/ZL.png",
     rating: "83%",
@@ -4519,7 +4913,8 @@ let offers = [
       transmission: "Manual transmission",
       mileage: "200 free miles per day"
     },
-    dynamic: [ {
+    dynamic: [
+      {
         name: "insurance",
         description: "Insurance included"
       },
@@ -4531,7 +4926,6 @@ let offers = [
         name: "reward points",
         description: "Earn Expedia Rewards points"
       }
-     
     ],
     location: [
       {
@@ -4541,15 +4935,19 @@ let offers = [
       {
         name: "Drop-off",
         description:
-         " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
+          " 1.52 mi\nBrassmill Lane, Bath, GBR\n1.52 mi from Bath city centre\nBrassmill Lane, Bath, GBR\n1.52 miles from Bath city centre\n1.52 mi from Bath city centre"
       }
     ],
     price: {
       daily: "",
-      total: "£125",
+      total: "125",
 
       slasher: ""
     },
+    option: [
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" },
+      { paylater: "true", mileage: "", deal: "", dealpercent: "" }
+    ],
     grwatdeal: "",
     supplier: "https://mediaim.expedia.com/cars/logos/KY.png",
     rating: "76%",

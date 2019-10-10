@@ -10,7 +10,7 @@ const ImageSection = props => {
     width: "calc(100% )",
     left: true,
     top: true,
-    py: "1",
+    py: "6",
     borderTopRightRadius: "2",
     borderTopLeftRadius: "2",
     backgroundImage: `url(${props.link})`,
