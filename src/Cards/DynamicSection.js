@@ -18,27 +18,29 @@ let PillStyle = {
 
 
 let increment = (price,deal,pp)=>{
+  
   let updatedPrice = price;
+  if (deal === "0"  ){
+    updatedPrice = updatedPrice+1
+  }
 
-  if (deal === "1" || pp === false ){
+  if (deal === "1"  ){
     updatedPrice = updatedPrice+2
   }
-  if (deal === "2"  || pp === false ){
+  if (deal === "2"   ){
     updatedPrice = updatedPrice+3
   }
-  if (deal === "3"  || pp === false ){
+  if (deal === "3"  ){
     updatedPrice = updatedPrice+4
   }
-  if (deal === "1" || pp === true ){
-    updatedPrice = updatedPrice+3
+  if (deal === null  ){
+    updatedPrice = updatedPrice+0
   }
-  if (deal === "2"  || pp === true ){
-    updatedPrice = updatedPrice+4
+
+  if(pp === false ){
+    updatedPrice = updatedPrice - 1
   }
-  if (deal === "3"  || pp === true ){
-    updatedPrice = updatedPrice+5
-  }
- 
+
   return updatedPrice
 
 }
@@ -50,7 +52,7 @@ let DynamicSection = props => {
   const tax = base_t - base_d * 4;
   
 
-  let daily = increment(base_d,props.deal,props.offer.payplan );
+  let daily = increment(base_d,props.deal, props.paymentplan);
   let total = (daily * 4) + tax;
 
   return (

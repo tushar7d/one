@@ -11,7 +11,7 @@ let offers2 = [
     total: "192",
     greatdeal: true,
     rating: "0.45", rated: "89",
-    dealset:[0,2]
+    dealset:[0,1,2,3,4,5,6,7,8,9]
   },
   {
     type: "Compact",
@@ -197,7 +197,7 @@ let offers2 = [
     total: "228",
     greatdeal: null,
     rating: "0.8",
-    dealset:[0,5,]
+    dealset:[0,5]
   },
   {
     type: "Compact SUV",
