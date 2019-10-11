@@ -17,7 +17,7 @@ function Csr(props) {
     <Layout>
       <ScrollContainer>
       
-      {props.offers.map((offer,index) => (
+      {props.inventory.map((offer,index) => (
           <Link key={index} to={`/cis/${index}`}>
           <CardProtoVertical  offer={offer} />
           </Link>

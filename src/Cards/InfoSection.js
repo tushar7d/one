@@ -2,6 +2,7 @@ import React from "react";
 import { Stack, Text, Image, Icon } from "../Primitives";
 
 import { MdPerson,MdFlight } from "react-icons/md";
+import Section from "../Global/Section";
 
 //Attribute Section
 let IconStack = props => {
@@ -13,12 +14,12 @@ let IconStack = props => {
           <MdPerson />
         </Icon>
         <Text type300 normal color="neutral__700" ml="1">
-          {info.passengers}
+          {info.seats}
         </Text>
       </Stack>
       <Stack horizontal bottom left>
         <Text type300 normal color="neutral__700" >
-        |  {info.transmission}
+        |  Automatic
         </Text>
       </Stack>
     </Stack>
@@ -44,7 +45,7 @@ let CarInfo = props => {
           <MdFlight />
         </Icon>
         <Text type300 normal color="neutral__700" mx="1">
-          Free shuttle to the car off airport{" "}
+          Free shuttle to the car off airport
         </Text>
       </Stack>
     </Stack>
@@ -55,22 +56,22 @@ let CarInfo = props => {
 let Ugc = props => {
   return (
     <Stack right top vertical>
-      <Image src={props.offer.supplier} width="50px" />
+      <Image src={props.offer.logo} width="50px" />
 
       <Text
         type300
         bold
-        color={parseInt(props.offer.rating) > 70 ? "accent.4" : "neutral__700"}
+        color={parseInt(props.offer.rating*100) > 70 ? "accent.4" : "neutral__700"}
         pr="1"
         pt="2"
       >
-        {props.offer.rating}
+        {props.offer.rating * 100}%
       </Text>
       <Text type300 normal color={"neutral__700"}>
         recommend
       </Text>
       <Text type300 normal color={"neutral__700"}>
-        (121 rated)
+        ({props.offer.rated}rated)
       </Text>
     </Stack>
   );
@@ -79,12 +80,12 @@ let Ugc = props => {
 //Main section
 let CarInfoSectionEmea = props => {
   return (
-    <>
+    <Section>
       <Stack horizontal split top width={"calc(100% - 24px)"} px={"3"}  py={"2"}>
-        <CarInfo info={props.offer.info} />
+        <CarInfo info={props.offer} />
         <Ugc offer={props.offer} />
       </Stack>
-    </>
+    </Section>
   );
 };
 export default CarInfoSectionEmea;
