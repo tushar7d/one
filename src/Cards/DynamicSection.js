@@ -16,97 +16,106 @@ let PillStyle = {
   px: "2"
 };
 
-
-let increment = (price,deal,pp)=>{
-  
+let increment = (price, deal, pp, cc, mm) => {
   let updatedPrice = price;
-  if (deal === "0"  ){
-    updatedPrice = updatedPrice+1
+  
+
+  if (deal === "0") {
+    updatedPrice = updatedPrice - 4;
+  }
+  if (deal === "1") {
+    updatedPrice = updatedPrice - 3;
+  }
+  if (deal === "2") {
+    updatedPrice = updatedPrice - 2;
+  }
+  if (deal === "3") {
+    updatedPrice = updatedPrice - 1;
+  }
+  if (deal === null) {
+    updatedPrice = updatedPrice + 0;
   }
 
-  if (deal === "1"  ){
-    updatedPrice = updatedPrice+2
+  if (pp ) {
+    updatedPrice = updatedPrice + 1;
   }
-  if (deal === "2"   ){
-    updatedPrice = updatedPrice+3
-  }
-  if (deal === "3"  ){
-    updatedPrice = updatedPrice+4
-  }
-  if (deal === null  ){
-    updatedPrice = updatedPrice+0
+  if (cc ) {
+    updatedPrice = updatedPrice + 1;
+    
   }
 
-  if(pp === false ){
-    updatedPrice = updatedPrice - 1
+  if (mm === "") {
+    updatedPrice = updatedPrice + 1;
   }
 
-  return updatedPrice
-
-}
+  return updatedPrice;
+};
 
 let DynamicSection = props => {
-
   const base_d = parseInt(props.offer.daily, 10);
   const base_t = parseInt(props.offer.total, 10);
   const tax = base_t - base_d * 4;
-  
 
-  let daily = increment(base_d,props.deal, props.paymentplan);
-  let total = (daily * 4) + tax;
+  let daily = increment(
+    base_d,
+    props.deal,
+    props.paylater,
+    props.cc,
+    props.mileage
+  );
+  let total = daily * 4 + tax;
 
   return (
     <Section width="100%" py="2">
       <Box height="1px" width="100%" bg="neutral__300" />
-      
-        <Stack horizontal left mid width="100%" height="auto" pt="2" px="2">
 
-          {props.deal == null ? null : (
-            <>
-          {props.deal === "3"? null: <Stack
-              {...PillStyle}
-              bg={(props.deal === "1" ? "yellow" : "accent.4")||(props.deal === "0" ? "yellow" : "accent.4")}
-              color={props.deal === "1" ? "neutral__800" : "white"}
-              mr="2"
-            >
-              {props.deal === "1" ? (
-                <Icon value={{ color: "#1f3366", size: "14px" }}>
-                  <MdLocalOffer />
-                </Icon>
-              ) : (
-                <Icon value={{ color: "#fff", size: "14px" }}>
-                  <MdPhoneIphone />
-                </Icon>
-              )}
+      <Stack horizontal left mid width="100%" height="auto" pt="2" px="2">
+        {props.deal == null ? null : (
+          <>
+            {props.deal === "3" ? null : (
+              <Stack
+                {...PillStyle}
+                bg={
+                  (props.deal === "1" ? "yellow" : "accent.4") ||
+                  (props.deal === "0" ? "yellow" : "accent.4")
+                }
+                color={props.deal === "1" ? "neutral__800" : "white"}
+                mr="2"
+              >
+                {props.deal === "1" ? (
+                  <Icon value={{ color: "#1f3366", size: "14px" }}>
+                    <MdLocalOffer />
+                  </Icon>
+                ) : (
+                  <Icon value={{ color: "#fff", size: "14px" }}>
+                    <MdPhoneIphone />
+                  </Icon>
+                )}
 
-              {props.deal === "1" ? (
-                <Text ml="1" type200 medium>
-                  Member Price
-                </Text>
-              ) : (
-                <Text ml="1" type200 medium>
-                  Mobile exclusive
-                </Text>
-              )}
-            </Stack>}
-            
+                {props.deal === "1" ? (
+                  <Text ml="1" type200 medium>
+                    Member Price
+                  </Text>
+                ) : (
+                  <Text ml="1" type200 medium>
+                    Mobile exclusive
+                  </Text>
+                )}
+              </Stack>
+            )}
 
             <Stack
-            {...PillStyle}
-            bg={(props.deal === "1") ? "yellow" : "accent.4"}
-            color={props.deal === "1" ? "neutral__800" : "white"}
-          >
-            <Text type200 medium>
-              {props.rate}% off
-            </Text>
-          </Stack>
-         </>
-         )}
-         
-           
-        </Stack>
-        
-      
+              {...PillStyle}
+              bg={props.deal === "1" ? "yellow" : "accent.4"}
+              color={props.deal === "1" ? "neutral__800" : "white"}
+            >
+              <Text type200 medium>
+                {props.rate}% off
+              </Text>
+            </Stack>
+          </>
+        )}
+      </Stack>
 
       <Stack horizontal split top width="100%">
         <Stack vertical mt="2" width="calc(70% - 12px )" pl="3">

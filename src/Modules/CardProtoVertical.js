@@ -25,6 +25,7 @@ let CardProtoVertical = props => {
               <DynamicSection key={index}
                 offer={offer}
                 deal={dealset[d].deal}
+                cc={dealset[d].cancellation}
                 rate="12"
                 paylater={dealset[d].paymentplan}
                 mileage={dealset[d].mileage}
