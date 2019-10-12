@@ -11,7 +11,7 @@ let offers2 = [
     total: "192",
     greatdeal: true,
     rating: "0.45", rated: "89",
-    dealset:[0]
+    dealset:[0,1,2,3,4,5,6,7,8,9]
   },
   {
     type: "Compact",

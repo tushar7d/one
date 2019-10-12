@@ -18,30 +18,28 @@ let PillStyle = {
 
 let increment = (price, deal, pp, cc, mm) => {
   let updatedPrice = price;
-  
 
   if (deal === "0") {
-    updatedPrice = updatedPrice - 4;
+    updatedPrice = updatedPrice - (5 - parseInt(deal, 10));
   }
   if (deal === "1") {
-    updatedPrice = updatedPrice - 3;
+    updatedPrice = updatedPrice - (5 - parseInt(deal, 10));
   }
   if (deal === "2") {
-    updatedPrice = updatedPrice - 2;
+    updatedPrice = updatedPrice - (5 - parseInt(deal, 10));
   }
   if (deal === "3") {
-    updatedPrice = updatedPrice - 1;
+    updatedPrice = updatedPrice - (5 - parseInt(deal, 10));
   }
   if (deal === null) {
     updatedPrice = updatedPrice + 0;
   }
 
-  if (pp ) {
+  if (pp) {
     updatedPrice = updatedPrice + 1;
   }
-  if (cc ) {
+  if (cc) {
     updatedPrice = updatedPrice + 1;
-    
   }
 
   if (mm === "") {
@@ -76,13 +74,18 @@ let DynamicSection = props => {
               <Stack
                 {...PillStyle}
                 bg={
-                  (props.deal === "1" ? "yellow" : "accent.4") ||
-                  (props.deal === "0" ? "yellow" : "accent.4")
+                  props.deal === "1" || props.deal === "0"
+                    ? "yellow"
+                    : "accent.4"
                 }
-                color={props.deal === "1" ? "neutral__800" : "white"}
+                color={
+                  props.deal === "1" || props.deal === "0"
+                    ? "neutral__800"
+                    : "white"
+                }
                 mr="2"
               >
-                {props.deal === "1" ? (
+                {props.deal === "1" || props.deal === "0" ? (
                   <Icon value={{ color: "#1f3366", size: "14px" }}>
                     <MdLocalOffer />
                   </Icon>
@@ -92,9 +95,9 @@ let DynamicSection = props => {
                   </Icon>
                 )}
 
-                {props.deal === "1" ? (
+                {props.deal === "1" || props.deal === "0" ? (
                   <Text ml="1" type200 medium>
-                    Member Price
+                    {props.deal === "0" ? "" : "Member Price"}
                   </Text>
                 ) : (
                   <Text ml="1" type200 medium>
@@ -106,8 +109,14 @@ let DynamicSection = props => {
 
             <Stack
               {...PillStyle}
-              bg={props.deal === "1" ? "yellow" : "accent.4"}
-              color={props.deal === "1" ? "neutral__800" : "white"}
+              bg={
+                props.deal === "1" || props.deal === "0" ? "yellow" : "accent.4"
+              }
+              color={
+                props.deal === "1" || props.deal === "0"
+                  ? "neutral__800"
+                  : "white"
+              }
             >
               <Text type200 medium>
                 {props.rate}% off
