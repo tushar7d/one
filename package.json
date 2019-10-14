@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@reach/router": "^1.2.1",
+    "framer-motion": "^1.6.12",
     "material-icons-react": "^1.0.4",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",

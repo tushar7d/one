@@ -1,3 +1,12 @@
+/**
+ * Mip - Avis,budget
+ * 
+ * 
+ * 
+ * 
+ */
+
+
 let offers2 = [
   {
     type: "Economy",
