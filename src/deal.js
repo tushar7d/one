@@ -1,86 +1,83 @@
 let dealset = [
-{
-    //UnlimitedMileage-ReserveNowPaylater-FreeCancellation
-    paymentplan: true,
+  {
+    //0Mip-UnlimitedMileage-PayNow-FreeCancellation
+    paymentplan: false,
     cancellation: true,
-    mileage: "",
-    deal: null,
-    
+    mileage: "200",
+    deal: "0"
   },
   {
-    //MobileExclusive-UnlimitedMileage-ReserveNowPaylater-FreeCancellation
-    paymentplan: true,
+    //1Mip-UnlimitedMileage-PayNow-NoFreeCancellation
+    paymentplan: false,
     cancellation: true,
     mileage: "",
-    deal: "2",
-    
+    deal: "0"
   },
   {
-    //MemberOnlyDeal-UnlimitedMileage-ReserveNowPaylater-FreeCancellation
-    paymentplan: true,
-    cancellation: true,
-    mileage: "",
-    deal: "1",
-    
-  },
-  {
-    //LimitedMileage-ReserveNowPaylater-FreeCancellation
+    //2MemberOnlyDeal-LimitedMileage-ReserveNowPaylater-FreeCancellation
     paymentplan: true,
     cancellation: true,
     mileage: "200",
-    deal: null,
-    
+    deal: "1"
   },
   {
-    //MemberOnlyDeal-LimitedMileage-ReserveNowPaylater-FreeCancellation
+    //3MemberOnlyDeal-UnlimitedMileage-PayNow-FreeCancellation
+    paymentplan: false,
+    cancellation: true,
+    mileage: "",
+    deal: "1"
+  },
+  {
+    //4MemberOnlyDeal-UnlimitedMileage-ReserveNowPaylater-FreeCancellation
     paymentplan: true,
     cancellation: true,
-    mileage: "200",
-    deal: "1",
-    
+    mileage: "",
+    deal: "1"
   },
-
-
   {
-    //UnlimitedMileage-PayNow-NoFreeCancellation
+    //5RegularOffer-UnlimitedMileage-PayNow-NoFreeCancellation
     paymentplan: false,
     cancellation: false,
     mileage: "",
-    deal: null,
-    
+    deal: "3"
   },
   {
-    //RegularOffer-UnlimitedMileage-PayNow-NoFreeCancellation
+    //6MobileExclusive-UnlimitedMileage-ReserveNowPaylater-FreeCancellation
+    paymentplan: true,
+    cancellation: true,
+    mileage: "",
+    deal: "2"
+  },
+  {
+    //7UnlimitedMileage-PayNow-NoFreeCancellation
     paymentplan: false,
     cancellation: false,
     mileage: "",
-    deal: "3",
-    
+    deal: null
   },
+
   {
-    //MemberOnlyDeal-UnlimitedMileage-PayNow-FreeCancellation
-    paymentplan: false,
-    cancellation: true,
-    mileage: "",
-    deal: "1",
-    
-  },
-  {
-    //Mip-UnlimitedMileage-PayNow-FreeCancellation
-    paymentplan: false,
+    //8LimitedMileage-ReserveNowPaylater-FreeCancellation
+    paymentplan: true,
     cancellation: true,
     mileage: "200",
-    deal: "0",
-    
+    deal: null
   },
+  
   {
-    //Mip-UnlimitedMileage-PayNow-NoFreeCancellation
-    paymentplan: false,
+    //9UnlimitedMileage-ReserveNowPaylater-FreeCancellation
+    paymentplan: true,
     cancellation: true,
     mileage: "",
-    deal: "0",
-    
-  },   
+    deal: null
+  },
+  {
+    //10LimitedMileage-ReserveNowPaylater-FreeCancellation
+    paymentplan: true,
+    cancellation: true,
+    mileage: "400",
+    deal: null
+  },
 ];
 
 export default dealset;

@@ -11,7 +11,7 @@ let offers2 = [
     total: "192",
     greatdeal: true,
     rating: "0.45", rated: "89",
-    dealset:[0,1,2,3,4,5,6,7,8,9]
+    dealset:[9]
   },
   {
     type: "Compact",
@@ -25,7 +25,7 @@ let offers2 = [
     total: "199",
     greatdeal: true,
     rating: "0.45", rated: "89",
-    dealset:[0]
+    dealset:[9]
   },
   {
     type: "Economy",
@@ -38,8 +38,8 @@ let offers2 = [
     daily: "25",
     total: "202",
     greatdeal: null,
-    rating: "0.8",
-    dealset:[0]
+   rating: "0.8",  rated: "615",
+    dealset:[6]
   },
   {
     type: "Midsize",
@@ -53,7 +53,7 @@ let offers2 = [
     total: "205",
     greatdeal: true,
     rating: "0.45", rated: "89",
-    dealset:[1]
+    dealset:[4]
   },
   {
     type: "Compact",
@@ -66,8 +66,8 @@ let offers2 = [
     daily: "26",
     total: "209",
     greatdeal: null,
-    rating: "0.8",
-    dealset:[0]
+   rating: "0.8",  rated: "615",
+    dealset:[3]
   },
   {
     type: "Standard",
@@ -81,7 +81,7 @@ let offers2 = [
     total: "211",
     greatdeal: true,
     rating: "0.45", rated: "89",
-    dealset:[2]
+    dealset:[0]
   },
   {
     type: "Midsize",
@@ -94,8 +94,8 @@ let offers2 = [
     daily: "27",
     total: "215",
     greatdeal: null,
-    rating: "0.8",
-    dealset:[1]
+   rating: "0.8",  rated: "615",
+    dealset:[7,9]
   },
   {
     type: "Special",
@@ -109,8 +109,8 @@ let offers2 = [
     daily: "28",
     total: "216",
     greatdeal: true,
-    rating: "0.84",
-    dealset:[7]
+    rating: "0.84", rated:"1445",
+    dealset:[1]
   },
   {
     type: "Special",
@@ -124,7 +124,7 @@ let offers2 = [
     total: "217",
     greatdeal: null,
     rating: "0.87", rated: "388",
-    dealset:[1]
+    dealset:[8,10]
   },
   {
     type: "Fullsize",
@@ -139,7 +139,7 @@ let offers2 = [
     total: "218",
     greatdeal: true,
     rating: "0.45", rated: "89",
-    dealset:[3]
+    dealset:[3,4]
   },
   {
     type: "Special Special Offer Car",
@@ -154,7 +154,7 @@ let offers2 = [
     total: "218",
     greatdeal: null,
     rating: "0.45", rated: "89",
-    dealset:[9]
+    dealset:[6]
   },
   {
     type: "Standard",
@@ -167,8 +167,8 @@ let offers2 = [
     daily: "28",
     total: "222",
     greatdeal: null,
-    rating: "0.8",
-    dealset:[1]
+   rating: "0.8",  rated: "615",
+    dealset:[0,1]
   },
   {
     type: "Fullsize",
@@ -183,7 +183,7 @@ let offers2 = [
     total: "227",
     greatdeal: null,
     rating: "0.45", rated: "89",
-    dealset:[0]
+    dealset:[4,9]
   },
   {
     type: "Fullsize",
@@ -196,8 +196,8 @@ let offers2 = [
     daily: "29",
     total: "228",
     greatdeal: null,
-    rating: "0.8",
-    dealset:[0,5]
+   rating: "0.8",  rated: "615",
+    dealset:[8,9]
   },
   {
     type: "Compact SUV",
@@ -212,7 +212,7 @@ let offers2 = [
     total: "233",
     greatdeal: null,
     rating: "0.45", rated: "89",
-    dealset:[0,6]
+    dealset:[8,9]
   },
   {
     type: "Mini Van",
@@ -227,7 +227,7 @@ let offers2 = [
     total: "239",
     greatdeal: true,
     rating: "0.45", rated: "89",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Mini Van",
@@ -242,7 +242,7 @@ let offers2 = [
     total: "239",
     greatdeal: true,
     rating: "0.94", rated: "276",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Mini Van",
@@ -256,7 +256,7 @@ let offers2 = [
     total: "241",
     greatdeal: null,
     rating: "0.45", rated: "89",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Midsize SUV",
@@ -271,7 +271,7 @@ let offers2 = [
     total: "243",
     greatdeal: null,
     rating: "0.45", rated: "89",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Economy",
@@ -285,8 +285,8 @@ let offers2 = [
     daily: "33",
     total: "249",
     greatdeal: null,
-    rating: "0.84",
-    dealset:[0,5,]
+    rating: "0.84", rated:"1445",
+    dealset:[8,9]
   },
   {
     type: "Compact",
@@ -301,8 +301,8 @@ let offers2 = [
     daily: "33",
     total: "249",
     greatdeal: null,
-    rating: "0.84",
-    dealset:[0,5,]
+    rating: "0.84", rated:"1445",
+    dealset:[8,9]
   },
   {
     type: "Midsize",
@@ -317,8 +317,8 @@ let offers2 = [
     daily: "34",
     total: "252",
     greatdeal: null,
-    rating: "0.84",
-    dealset:[0,5,]
+    rating: "0.84", rated:"1445",
+    dealset:[8,9]
   },
   {
     type: "Economy",
@@ -334,7 +334,7 @@ let offers2 = [
     total: "252",
     greatdeal: null,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Mini Van",
@@ -350,7 +350,7 @@ let offers2 = [
     total: "252",
     greatdeal: null,
     rating: "0.87", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Compact",
@@ -366,7 +366,7 @@ let offers2 = [
     total: "254",
     greatdeal: null,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Midsize SUV",
@@ -380,8 +380,8 @@ let offers2 = [
     daily: "33",
     total: "254",
     greatdeal: null,
-    rating: "0.8",
-    dealset:[0,5,]
+   rating: "0.8",  rated: "615",
+    dealset:[8,9]
   },
   {
     type: "Midsize",
@@ -397,7 +397,7 @@ let offers2 = [
     total: "255",
     greatdeal: null,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Standard",
@@ -413,7 +413,7 @@ let offers2 = [
     total: "257",
     greatdeal: null,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Standard",
@@ -428,8 +428,8 @@ let offers2 = [
     daily: "34",
     total: "257",
     greatdeal: null,
-    rating: "0.84",
-    dealset:[0,5,]
+    rating: "0.84", rated:"1445",
+    dealset:[8,9]
   },
   {
     type: "Fullsize",
@@ -444,8 +444,8 @@ let offers2 = [
     daily: "34",
     total: "257",
     greatdeal: null,
-    rating: "0.84",
-    dealset:[0,5,]
+    rating: "0.84", rated:"1445",
+    dealset:[8,9]
   },
   {
     type: "Fullsize",
@@ -461,7 +461,7 @@ let offers2 = [
     total: "258",
     greatdeal: null,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Economy",
@@ -476,7 +476,7 @@ let offers2 = [
     total: "258",
     greatdeal: null,
     rating: "0.45", rated: "89",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Mini Van",
@@ -492,7 +492,7 @@ let offers2 = [
     total: "259",
     greatdeal: null,
     rating: "0.94", rated: "276",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Mini Van",
@@ -508,7 +508,7 @@ let offers2 = [
     total: "259",
     greatdeal: null,
     rating: "0.94", rated: "152",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Mini Van",
@@ -524,7 +524,7 @@ let offers2 = [
     total: "259",
     greatdeal: null,
     rating: "0.92", rated: "674",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Compact",
@@ -539,7 +539,7 @@ let offers2 = [
     total: "260",
     greatdeal: null,
     rating: "0.67", rated: "121",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Economy",
@@ -555,7 +555,7 @@ let offers2 = [
     total: "263",
     greatdeal: null,
     rating: "0.92", rated: "674",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Compact",
@@ -571,7 +571,7 @@ let offers2 = [
     total: "265",
     greatdeal: null,
     rating: "0.92", rated: "674",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Midsize SUV",
@@ -601,8 +601,8 @@ let offers2 = [
     daily: "35",
     total: "272",
     greatdeal: null,
-    rating: "0.76",
-    dealset:[0,5,]
+    rating: "0.76", rated: "649",
+    dealset:[8,9]
   },
   {
     type: "Premium",
@@ -618,7 +618,7 @@ let offers2 = [
     total: "276",
     greatdeal: true,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Midsize",
@@ -634,7 +634,7 @@ let offers2 = [
     total: "277",
     greatdeal: null,
     rating: "0.92", rated: "674",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Standard",
@@ -650,7 +650,7 @@ let offers2 = [
     total: "277",
     greatdeal: null,
     rating: "0.92", rated: "674",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Standard SUV",
@@ -666,7 +666,7 @@ let offers2 = [
     total: "278",
     greatdeal: null,
     rating: "0.45", rated: "89",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Economy",
@@ -682,7 +682,7 @@ let offers2 = [
     total: "285",
     greatdeal: null,
     rating: "0.94", rated: "152",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Economy",
@@ -698,7 +698,7 @@ let offers2 = [
     total: "285",
     greatdeal: null,
     rating: "0.94", rated: "276",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Luxury",
@@ -714,7 +714,7 @@ let offers2 = [
     total: "287",
     greatdeal: true,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Midsize",
@@ -729,7 +729,7 @@ let offers2 = [
     total: "288",
     greatdeal: null,
     rating: "0.67", rated: "121",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Fullsize",
@@ -744,7 +744,7 @@ let offers2 = [
     total: "292",
     greatdeal: null,
     rating: "0.67", rated: "121",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Compact",
@@ -760,7 +760,7 @@ let offers2 = [
     total: "293",
     greatdeal: null,
     rating: "0.94", rated: "152",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Midsize",
@@ -776,7 +776,7 @@ let offers2 = [
     total: "293",
     greatdeal: null,
     rating: "0.94", rated: "152",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Compact",
@@ -792,7 +792,7 @@ let offers2 = [
     total: "293",
     greatdeal: null,
     rating: "0.94", rated: "276",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Midsize",
@@ -808,7 +808,7 @@ let offers2 = [
     total: "293",
     greatdeal: null,
     rating: "0.94", rated: "276",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Fullsize",
@@ -824,7 +824,7 @@ let offers2 = [
     total: "297",
     greatdeal: null,
     rating: "0.92", rated: "674",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Midsize SUV",
@@ -840,7 +840,7 @@ let offers2 = [
     total: "297",
     greatdeal: null,
     rating: "0.92", rated: "674",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Standard SUV",
@@ -856,7 +856,7 @@ let offers2 = [
     total: "297",
     greatdeal: null,
     rating: "0.92", rated: "674",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Fullsize SUV",
@@ -872,7 +872,7 @@ let offers2 = [
     total: "297",
     greatdeal: null,
     rating: "0.45", rated: "89",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Premium",
@@ -888,7 +888,7 @@ let offers2 = [
     total: "301",
     greatdeal: null,
     rating: "0.92", rated: "674",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Standard SportsCar",
@@ -904,7 +904,7 @@ let offers2 = [
     total: "301",
     greatdeal: null,
     rating: "0.92", rated: "674",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Special",
@@ -920,7 +920,7 @@ let offers2 = [
     total: "303",
     greatdeal: null,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Mini Van",
@@ -936,7 +936,7 @@ let offers2 = [
     total: "307",
     greatdeal: null,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Standard SUV",
@@ -952,7 +952,7 @@ let offers2 = [
     total: "308",
     greatdeal: null,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Standard",
@@ -968,7 +968,7 @@ let offers2 = [
     total: "311",
     greatdeal: null,
     rating: "0.94", rated: "152",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Economy",
@@ -984,7 +984,7 @@ let offers2 = [
     total: "311",
     greatdeal: null,
     rating: "0.87", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Compact",
@@ -1000,7 +1000,7 @@ let offers2 = [
     total: "311",
     greatdeal: null,
     rating: "0.87", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Midsize Elite SUV",
@@ -1016,7 +1016,7 @@ let offers2 = [
     total: "312",
     greatdeal: true,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Premium SUV",
@@ -1032,7 +1032,7 @@ let offers2 = [
     total: "313",
     greatdeal: null,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Economy Special",
@@ -1047,7 +1047,7 @@ let offers2 = [
     total: "313",
     greatdeal: null,
     rating: "0.94", rated: "276",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Compact",
@@ -1062,8 +1062,8 @@ let offers2 = [
     daily: "41",
     total: "314",
     greatdeal: null,
-    rating: "0.76",
-    dealset:[0,5,]
+    rating: "0.76", rated: "649",
+    dealset:[8,9]
   },
   {
     type: "Economy",
@@ -1078,8 +1078,8 @@ let offers2 = [
     daily: "41",
     total: "314",
     greatdeal: null,
-    rating: "0.76",
-    dealset:[0,5,]
+    rating: "0.76", rated: "649",
+    dealset:[8,9]
   },
   {
     type: "Midsize",
@@ -1094,8 +1094,8 @@ let offers2 = [
     daily: "43",
     total: "316",
     greatdeal: null,
-    rating: "0.95",
-    dealset:[0,5,]
+    rating: "0.95", rated: "50",
+    dealset:[8,9]
   },
   {
     type: "Standard",
@@ -1110,8 +1110,8 @@ let offers2 = [
     daily: "43",
     total: "316",
     greatdeal: null,
-    rating: "0.95",
-    dealset:[0,5,]
+    rating: "0.95", rated: "50",
+    dealset:[8,9]
   },
   {
     type: "Standard",
@@ -1141,8 +1141,8 @@ let offers2 = [
     daily: "42",
     total: "318",
     greatdeal: null,
-    rating: "0.76",
-    dealset:[0,5,]
+    rating: "0.76", rated: "649",
+    dealset:[8,9]
   },
   {
     type: "Midsize",
@@ -1158,7 +1158,7 @@ let offers2 = [
     total: "319",
     greatdeal: null,
     rating: "0.87", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Standard",
@@ -1174,7 +1174,7 @@ let offers2 = [
     total: "319",
     greatdeal: null,
     rating: "0.87", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Fullsize",
@@ -1190,7 +1190,7 @@ let offers2 = [
     total: "325",
     greatdeal: null,
     rating: "0.94", rated: "152",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Fullsize",
@@ -1205,8 +1205,8 @@ let offers2 = [
     daily: "45",
     total: "325",
     greatdeal: null,
-    rating: "0.95",
-    dealset:[0,5,]
+    rating: "0.95", rated: "50",
+    dealset:[8,9]
   },
   {
     type: "Fullsize",
@@ -1222,7 +1222,7 @@ let offers2 = [
     total: "325",
     greatdeal: null,
     rating: "0.94", rated: "276",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Mini Van",
@@ -1236,8 +1236,8 @@ let offers2 = [
     daily: "44",
     total: "326",
     greatdeal: null,
-    rating: "0.8",
-    dealset:[0,5,]
+   rating: "0.8",  rated: "615",
+    dealset:[8,9]
   },
   {
     type: "Luxury SUV",
@@ -1253,7 +1253,7 @@ let offers2 = [
     total: "327",
     greatdeal: null,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Economy",
@@ -1268,8 +1268,8 @@ let offers2 = [
     daily: "45",
     total: "327",
     greatdeal: null,
-    rating: "0.95",
-    dealset:[0,5,]
+    rating: "0.95", rated: "50",
+    dealset:[8,9]
   },
   {
     type: "Economy",
@@ -1285,7 +1285,7 @@ let offers2 = [
     total: "327",
     greatdeal: null,
     rating: "0.94", rated: "276",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Economy Special",
@@ -1300,7 +1300,7 @@ let offers2 = [
     total: "327",
     greatdeal: null,
     rating: "0.94", rated: "276",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Fullsize",
@@ -1316,7 +1316,7 @@ let offers2 = [
     total: "328",
     greatdeal: null,
     rating: "0.87", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Premium",
@@ -1332,7 +1332,7 @@ let offers2 = [
     total: "331",
     greatdeal: null,
     rating: "0.94", rated: "276",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Compact SUV",
@@ -1347,8 +1347,8 @@ let offers2 = [
     daily: "46",
     total: "332",
     greatdeal: null,
-    rating: "0.84",
-    dealset:[0,5,]
+    rating: "0.84", rated:"1445",
+    dealset:[8,9]
   },
   {
     type: "Midsize SUV",
@@ -1364,7 +1364,7 @@ let offers2 = [
     total: "332",
     greatdeal: null,
     rating: "0.94", rated: "152",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Standard SUV",
@@ -1380,7 +1380,7 @@ let offers2 = [
     total: "332",
     greatdeal: null,
     rating: "0.94", rated: "152",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Standard Pickup Regular Cab",
@@ -1395,8 +1395,8 @@ let offers2 = [
     daily: "49",
     total: "336",
     greatdeal: null,
-    rating: "0.95",
-    dealset:[0,5,]
+    rating: "0.95", rated: "50",
+    dealset:[8,9]
   },
   {
     type: "Compact",
@@ -1411,8 +1411,8 @@ let offers2 = [
     daily: "47",
     total: "337",
     greatdeal: null,
-    rating: "0.95",
-    dealset:[0,5,]
+    rating: "0.95", rated: "50",
+    dealset:[8,9]
   },
   {
     type: "Compact",
@@ -1428,7 +1428,7 @@ let offers2 = [
     total: "337",
     greatdeal: null,
     rating: "0.94", rated: "276",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Midsize",
@@ -1444,7 +1444,7 @@ let offers2 = [
     total: "337",
     greatdeal: null,
     rating: "0.94", rated: "276",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Luxury SportsCar",
@@ -1460,7 +1460,7 @@ let offers2 = [
     total: "341",
     greatdeal: null,
     rating: "0.94", rated: "276",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Premium SUV",
@@ -1476,7 +1476,7 @@ let offers2 = [
     total: "342",
     greatdeal: null,
     rating: "0.92", rated: "674",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Premium SUV",
@@ -1492,7 +1492,7 @@ let offers2 = [
     total: "342",
     greatdeal: null,
     rating: "0.94", rated: "152",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Mini Van",
@@ -1507,8 +1507,8 @@ let offers2 = [
     daily: "48",
     total: "345",
     greatdeal: null,
-    rating: "0.95",
-    dealset:[0,5,]
+    rating: "0.95", rated: "50",
+    dealset:[8,9]
   },
   {
     type: "Midsize SUV",
@@ -1523,8 +1523,8 @@ let offers2 = [
     daily: "48",
     total: "347",
     greatdeal: null,
-    rating: "0.84",
-    dealset:[0,5,]
+    rating: "0.84", rated:"1445",
+    dealset:[8,9]
   },
   {
     type: "Fullsize SUV",
@@ -1540,7 +1540,7 @@ let offers2 = [
     total: "347",
     greatdeal: null,
     rating: "0.92", rated: "674",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Mini Van",
@@ -1556,7 +1556,7 @@ let offers2 = [
     total: "348",
     greatdeal: null,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Standard Pickup Regular Cab",
@@ -1572,7 +1572,7 @@ let offers2 = [
     total: "349",
     greatdeal: null,
     rating: "0.92", rated: "674",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Standard",
@@ -1587,8 +1587,8 @@ let offers2 = [
     daily: "47",
     total: "352",
     greatdeal: null,
-    rating: "0.76",
-    dealset:[0,5,]
+    rating: "0.76", rated: "649",
+    dealset:[8,9]
   },
   {
     type: "Fullsize",
@@ -1603,8 +1603,8 @@ let offers2 = [
     daily: "47",
     total: "353",
     greatdeal: null,
-    rating: "0.76",
-    dealset:[0,5,]
+    rating: "0.76", rated: "649",
+    dealset:[8,9]
   },
   {
     type: "Special SUV",
@@ -1620,7 +1620,7 @@ let offers2 = [
     total: "356",
     greatdeal: null,
     rating: "0.79", rated: "388",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
   {
     type: "Luxury",
@@ -1636,7 +1636,7 @@ let offers2 = [
     total: "357",
     greatdeal: null,
     rating: "0.92", rated: "674",
-    dealset:[0,5,]
+    dealset:[8,9]
   },
  
 ];

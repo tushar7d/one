@@ -5,6 +5,7 @@ import ImageSection from "../Cards/ImageSection";
 import InfoSection from "../Cards/InfoSection";
 import DynamicSection from "../Cards/DynamicSection";
 import dealset from "../deal";
+import BottomSection from '../Cards/BottomSection'
 
 let CardProtoVertical = props => {
   let offer = props.offer;
@@ -33,6 +34,7 @@ let CardProtoVertical = props => {
             );
           })
         : null}
+        <BottomSection />
     </Box>
   );
 };

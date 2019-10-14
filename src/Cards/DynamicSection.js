@@ -19,30 +19,40 @@ let PillStyle = {
 let increment = (price, deal, pp, cc, mm) => {
   let updatedPrice = price;
 
+  //Mip
   if (deal === "0") {
     updatedPrice = updatedPrice - (5 - parseInt(deal, 10));
   }
+ //Mod
   if (deal === "1") {
     updatedPrice = updatedPrice - (5 - parseInt(deal, 10));
   }
+  //Mobile exclusive
   if (deal === "2") {
     updatedPrice = updatedPrice - (5 - parseInt(deal, 10));
   }
+  //normal offer
   if (deal === "3") {
     updatedPrice = updatedPrice - (5 - parseInt(deal, 10));
   }
+  //no offer
   if (deal === null) {
     updatedPrice = updatedPrice + 0;
   }
-
+  //pay later
   if (pp) {
     updatedPrice = updatedPrice + 1;
   }
+  //free cancellation
   if (cc) {
     updatedPrice = updatedPrice + 1;
   }
-
+ //mileage
   if (mm === "") {
+    updatedPrice = updatedPrice + 2;
+  }
+  //mileage
+  if (mm === "400") {
     updatedPrice = updatedPrice + 1;
   }
 

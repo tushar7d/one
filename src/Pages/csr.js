@@ -8,7 +8,7 @@ import CardProtoVertical  from '../Modules/CardProtoVertical'
 
 
 let ScrollContainer = props =>{
-  return <Stack vertical center top width ="100vw" height="auto" >{props.children}</Stack>
+  return <Stack vertical center top width ="100vw" height="auto" overflowX="hidden"  >{props.children}</Stack>
 }
 
 

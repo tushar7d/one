@@ -59,7 +59,7 @@ const SearchPlayback = props => {
           SEA Airport, Seattle
         </Text>
         <Text fontSize={"12px"} lineHeight={"16px"} fontWeight={"normal"}>
-          Oct 12 - Oct 16 10:00am
+          Oct 24 - Oct 28 10:00am
         </Text>
       </Stack>
     </Stack>
