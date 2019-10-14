@@ -17,18 +17,20 @@ let ScrollContainer = props => {
 
 function Csrm(props) {
   const [modalState, setState] = useState(false);
-  const [currentOffer, setOffer] = useState(null);
+  const [currentOffer, setOffer]= useState(null);
 
-  const handleClick = offer => {
+  const handleClick = (offer) => {
     setState(!modalState);
     setOffer(offer);
   };
 
   const variants = {
-    hidden: { opacity: 1, y: 100 },
+    hidden: { opacity: 1, y: 100, },
     visible: {
       opacity: 1,
-      y: 0
+      y: 0,
+   
+      
     }
   };
 
@@ -44,12 +46,7 @@ function Csrm(props) {
     <Layout>
       <ScrollContainer>
         {props.inventory.map((offer, index) => (
-          <div
-            key={index}
-            onClick={offer => {
-              return handleClick(offer);
-            }}
-          >
+          <div key={index} onClick={(offer)=>{return handleClick(offer)}} >
             <CardProtoModal offer={offer} />
           </div>
         ))}
@@ -59,21 +56,11 @@ function Csrm(props) {
         initial="hidden"
         animate={modalState ? "visible" : "hidden"}
         variants={variants}
+        
       >
-        <Box {...ModalStyle}>
-          {dealset.map((d, index) => {
-            return (
-              <DynamicSection
-                key={index}
-                offer={currentOffer}
-                deal={dealset[d].deal}
-                cc={dealset[d].cancellation}
-                rate="12"
-                paylater={dealset[d].paymentplan}
-                mileage={dealset[d].mileage}
-              />
-            );
-          })}
+        <Box {...ModalStyle} >
+       
+            
         </Box>
       </motion.div>
     </Layout>
