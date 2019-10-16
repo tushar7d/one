@@ -10,6 +10,7 @@
     "react-dom": "^16.10.2",
     "react-icons": "^3.7.0",
     "react-scripts": "3.2.0",
+    "react-swipeable-bottom-sheet": "^1.1.1",
     "styled-components": "^4.4.0",
     "styled-map": "^3.3.0",
     "styled-system": "^5.1.2"

@@ -2,25 +2,10 @@ import React, { useState } from "react";
 import Layout from "../Modules/layout";
 import { Stack, Box } from "../Primitives";
 import CardProtoModal from "../Modules/CardProtoModal";
+import SwipeableBottomSheet from "react-swipeable-bottom-sheet";
 import DynamicSection from "../Cards/DynamicSection";
 import dealset from "../deal";
-import { motion } from "framer-motion";
 
-const variants = {
-  hidden: { opacity: 1, y: 100 },
-  visible: {
-    opacity: 1,
-    y: 0
-  }
-};
-const ModalStyle = {
-  position: "fixed",
-  bottom: "0",
-  left: "0",
-  right: "0",
-  height: "auto",
-  bg: "white"
-};
 let ScrollContainer = props => {
   return (
     <Stack vertical center top width="100vw" height="auto" overflowX="hidden">
@@ -28,9 +13,6 @@ let ScrollContainer = props => {
     </Stack>
   );
 };
-
-
-
 
 function Csrm(props) {
   const [selection, select] = useState(null);
@@ -40,69 +22,57 @@ function Csrm(props) {
     select(card);
     flip(!modalState);
   };
+  const resetState = () => {
+    flip(!modalState);
+  };
 
   return (
-    <Layout>
-      <ScrollContainer>
-        {props.inventory.map((card, index) => {
-          return (
-            <div
-              key={index}
-              onClick={() => {
-                handleClick(card);
-              }}
-            >
-              <CardProtoModal offer={card} />
-            </div>
-          );
-        })}
-      </ScrollContainer>
-
-
-      <motion.div
-        variants={variants}
-        animate={modalState ? "visible" : "hidden"}
-      >
-        <Stack
-          vertical
-          top
-          center
-          {...ModalStyle}
-          onClick={() => {
-            handleClick(null);
-          }}
-        >
-          <Stack vertical bottom center width="100vw" height="100vh" bg="#000B26" style={{opacity: 0.56}}>
-
-          <Box
-            width="60px"
-            height="8px"
-            borderRadius="4"
-            bg="neutral__200"
-            mt="2"
-          ></Box>
-          {selection !== null
-            ? selection.dealset.map((d, index) => {
-                return (
-                  <DynamicSection
-                    key={index}
-                    offer={selection}
-                    deal={dealset[d].deal}
-                    cc={dealset[d].cancellation}
-                    rate="12"
-                    paylater={dealset[d].paymentplan}
-                    mileage={dealset[d].mileage}
-                  />
-                );
-              })
-            : null}
-
-
+    <>
+      <Layout>
+        <ScrollContainer>
+          {props.inventory.map((card, index) => {
+            return (
+              <div
+                key={index}
+                onClick={() => {
+                  handleClick(card);
+                }}
+              >
+                <CardProtoModal offer={card} />
+              </div>
+            );
+          })}
+        </ScrollContainer>
+      </Layout>
+      <SwipeableBottomSheet open={modalState} onChange={resetState}>
+        <div style={{ height: "50vh" }}>
+          <Stack vertical top center>
+            <Box
+              width="60px"
+              height="8px"
+              borderRadius="4"
+              bg="neutral__200"
+              mt="2"
+            ></Box>
+            {selection !== null
+              ? selection.dealset.map((d, index) => {
+                  return (
+                    <DynamicSection
+                      key={index}
+                      offer={selection}
+                      deal={dealset[d].deal}
+                      cc={dealset[d].cancellation}
+                      rate="12"
+                      paylater={dealset[d].paymentplan}
+                      mileage={dealset[d].mileage}
+                    />
+                  );
+                })
+              : null}
           </Stack>
-          
-        </Stack>
-      </motion.div>
-    </Layout>
+        </div>
+      </SwipeableBottomSheet>
+    </>
   );
 }
 
