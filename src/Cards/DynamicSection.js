@@ -163,7 +163,7 @@ let DynamicSection = props => {
               Free cancellation
             </Text>
           ) : (
-            <Text type300 normal color={"accent.5"}>
+            <Text type300 normal color={"neutral__700"}>
               No cancellation or refund
             </Text>
           )}

@@ -12,7 +12,7 @@ const Navigator = () => {
       <NotFound default />
       <Csr offers={offers} inventory={offers2}  path="/" />
       <Csrm offers={offers} inventory={offers2}  path="/m" />
-      <Cis offers={offers} inventory={offers2} path="/cis" />
+      <Cis offers={offers} inventory={offers2} path="/cis/:id/:d" />
       </ScrollToTop>
       
     </Router>

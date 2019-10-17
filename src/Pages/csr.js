@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../Modules/layout';
 import {Stack} from '../Primitives'
 
-import {Link} from '@reach/router'
+
 
 import CardProtoVertical  from '../Modules/CardProtoVertical'
 
@@ -18,9 +18,9 @@ function Csr(props) {
       <ScrollContainer>
       
       {props.inventory.map((offer,index) => (
-          <Link key={index} to={`/cis/${index}`}>
-          <CardProtoVertical  offer={offer} />
-          </Link>
+          <div key={index} >
+          <CardProtoVertical  offer={offer}  index={index}/>
+          </div>
         ))}
       </ScrollContainer>
   

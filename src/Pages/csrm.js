@@ -5,6 +5,7 @@ import CardProtoModal from "../Modules/CardProtoModal";
 import SwipeableBottomSheet from "react-swipeable-bottom-sheet";
 import DynamicSection from "../Cards/DynamicSection";
 import dealset from "../deal";
+import InfoSection from "../Cards/InfoSection";
 
 let ScrollContainer = props => {
   return (
@@ -54,6 +55,8 @@ function Csrm(props) {
               bg="neutral__200"
               mt="2"
             ></Box>
+              {selection !== null
+              ? <InfoSection offer={selection} />: null}
             {selection !== null
               ? selection.dealset.map((d, index) => {
                   return (

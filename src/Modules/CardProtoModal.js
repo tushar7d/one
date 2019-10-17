@@ -1,7 +1,7 @@
 import React from "react";
 import { Box } from "../Primitives";
 import ImageSection from "../Cards/ImageSection";
-import InfoSection from "../Cards/InfoSection";
+import InfoSectionm from "../Cards/InfoSectionm";
 import BottomSection from '../Cards/BottomSection'
 
 let CardProtoModal = props => {
@@ -15,7 +15,7 @@ let CardProtoModal = props => {
       mx={["0px", "0px", "2"]}
     >
       <ImageSection link={offer.image} />
-      <InfoSection offer={offer} />
+      <InfoSectionm offer={offer} />
 
       
         <BottomSection />
