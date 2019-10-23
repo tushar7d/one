@@ -71,7 +71,7 @@ let Ugc = props => {
         recommend
       </Text>
       <Text type300 normal color={"neutral__700"}>
-        ({props.offer.rated}rated)
+        ({props.offer.rated} rated)
       </Text>
     </Stack>
   );

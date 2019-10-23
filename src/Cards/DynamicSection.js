@@ -144,13 +144,14 @@ let DynamicSection = props => {
             </Text>
           ) : (
             <Text type300 normal color={"neutral__700"}>
-              Limited mileage {props.mileage} miles
+              {props.mileage} free miles/day
+              
             </Text>
           )}
 
           {props.paylater === true ? (
             <Text type300 normal color={"accent.4"}>
-              Reserve now pay later
+              Reserve now, pay later
             </Text>
           ) : (
             <Text type300 normal color={"accent.4"}>
