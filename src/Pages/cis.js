@@ -226,7 +226,27 @@ function Cis(props) {
             </Stack>
           </Stack>
         </Box>
-        {props.id} /{props.d}/{daily}/{total}
+        <Box width="100%" height="62px"></Box>
+        <Stack horizontal split  mid position="fixed" bottom="0" left="0" right="0" height="50px" bg="white"  boxShadow="5" p="3" >
+                  <div>
+                  <Text type500 bold color={"neutral__900"}>
+                  ${daily}
+                </Text>
+                <Text type200 normal color={"neutral__700"}>
+                  per day
+                </Text>
+                <Text type200 normal color={"neutral__700"}>
+                  ${total} total
+                </Text>
+                   
+                  </div>
+                  <div>
+
+                    <Box height="44px" color={"accent.2"} > hello</Box>
+                  </div>
+
+
+        </Stack>
       </ScrollContainer>
     </Layout>
   );
