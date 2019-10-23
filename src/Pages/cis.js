@@ -133,11 +133,49 @@ function Cis(props) {
 
             <IconStack info={offer[props.id]} />
           </Stack>
+
+          <Stack vertical left top p="3" bg="white" mb="3" borderRadius="2">
+            <Stack vertical width="calc(70% - 12px )">
+              {d[props.d].mileage === "" ? (
+                <Text type300 normal color={"neutral__700"}>
+                  Unlimited mileage
+                </Text>
+              ) : (
+                <Text type300 normal color={"neutral__700"}>
+                  Limited mileage {d[props.d].mileage} miles
+                </Text>
+              )}
+
+              {d[props.d].paymentplan === true ? (
+                <Text type300 normal color={"accent.4"}>
+                  Reserve now pay later
+                </Text>
+              ) : (
+                <Text type300 normal color={"accent.4"}>
+                  Pay now
+                </Text>
+              )}
+
+              {d[props.d].paymentplan === true ? (
+                <Text type300 normal color={"accent.4"}>
+                  Free cancellation
+                </Text>
+              ) : (
+                <Text type300 normal color={"neutral__700"}>
+                  No cancellation or refund
+                </Text>
+              )}
+            </Stack>
+          </Stack>
+
           <Stack vertical left top p="3" bg="white" mb="3" borderRadius="2">
             <Text {...Heading}>Reviews</Text>
             <Text type300 regular color="neutral__700">
               {100 * parseFloat(offer[props.id].rating, 10)}% recommend (
               {offer[props.id].rated}rated)
+            </Text>
+            <Text type300 regular color="neutral__700">
+            Vehicle condition as expected
             </Text>
           </Stack>
 
@@ -193,38 +231,17 @@ function Cis(props) {
           </Stack>
 
           <Stack vertical left top p="3" bg="white" mb="3" borderRadius="2">
-            <Stack vertical width="calc(70% - 12px )">
-              {d[props.d].mileage === "" ? (
-                <Text type300 normal color={"neutral__700"}>
-                  Unlimited mileage
-                </Text>
-              ) : (
-                <Text type300 normal color={"neutral__700"}>
-                  Limited mileage {d[props.d].mileage} miles
-                </Text>
-              )}
+            <Text {...Heading} mb="2">
+            Accessories
+            </Text>
 
-              {d[props.d].paymentplan === true ? (
-                <Text type300 normal color={"accent.4"}>
-                  Reserve now pay later
-                </Text>
-              ) : (
-                <Text type300 normal color={"accent.4"}>
-                  Pay now
-                </Text>
-              )}
-
-              {d[props.d].paymentplan === true ? (
-                <Text type300 normal color={"accent.4"}>
-                  Free cancellation
-                </Text>
-              ) : (
-                <Text type300 normal color={"neutral__700"}>
-                  No cancellation or refund
-                </Text>
-              )}
-            </Stack>
+            <Text type300 regular color="neutral__700">
+            Requests cannot be guranteed as they are subject to availability. Payment due at pick-up
+            </Text>
+             
           </Stack>
+
+          
         </Box>
         <Box width="100%" height="62px"></Box>
         <Stack horizontal split  mid position="fixed" bottom="0" left="0" right="0" height="50px" bg="white"  boxShadow="5" p="3" >
