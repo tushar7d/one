@@ -172,7 +172,7 @@ function Cis(props) {
             <Text {...Heading}>Reviews</Text>
             <Text type300 regular color="neutral__700">
               {100 * parseFloat(offer[props.id].rating, 10)}% recommend (
-              {offer[props.id].rated}rated)
+              {offer[props.id].rated} rated)
             </Text>
             <Text type300 regular color="neutral__700">
             Vehicle condition as expected
