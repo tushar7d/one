@@ -242,7 +242,12 @@ function Cis(props) {
                   </div>
                   <div>
 
-                    <Box height="44px" color={"accent.2"} > hello</Box>
+                    <Box  bg={"accent.2"}  py="3" px="3" borderRadius="2" >
+                    <Text type400 medium color={"white"}>
+                  Reserve
+                </Text>
+
+                    </Box>
                   </div>
 
 
