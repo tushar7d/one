@@ -6,6 +6,7 @@ import SwipeableBottomSheet from "react-swipeable-bottom-sheet";
 import DynamicSection from "../Cards/DynamicSection";
 import dealset from "../deal";
 import InfoSection from "../Cards/InfoSection";
+import { Link } from "@reach/router";
 
 let ScrollContainer = props => {
   return (
@@ -60,8 +61,9 @@ function Csrm(props) {
             {selection !== null
               ? selection.dealset.map((d, index) => {
                   return (
+                    <Link style={{width:"100%"}} key={index} to={`/cis/${selection.id}/${d}`}>
                     <DynamicSection
-                      key={index}
+                    key={index}
                       offer={selection}
                       deal={dealset[d].deal}
                       cc={dealset[d].cancellation}
@@ -69,6 +71,7 @@ function Csrm(props) {
                       paylater={dealset[d].paymentplan}
                       mileage={dealset[d].mileage}
                     />
+                    </Link>
                   );
                 })
               : null}

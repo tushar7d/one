@@ -137,7 +137,7 @@ let DynamicSection = props => {
       </Stack>
 
       <Stack horizontal split top width="100%">
-        <Stack vertical mt="2" width="calc(70% - 12px )" pl="3">
+        <Stack vertical mt="2" width="calc(60% - 12px )" pl="3">
           {props.mileage === "" ? (
             <Text type300 normal color={"neutral__700"}>
               Unlimited mileage
@@ -169,7 +169,7 @@ let DynamicSection = props => {
             </Text>
           )}
         </Stack>
-        <Stack horizontal right mid width="calc(28% - 12px )" pr="1">
+        <Stack horizontal right mid width="calc(38% - 12px )" pr="1">
           <Stack vertical right top width="100%" mt="2" pr="1">
             <Text type600 bold color={"neutral__800"} textAlign="right">
               ${daily}
@@ -178,6 +178,7 @@ let DynamicSection = props => {
               per day
             </Text>
             <Text type200 normal color={"neutral__500"} textAlign="right">
+              {props.deal === null ? null :<Text.span type200 normal color={"neutral__500"} style={{textDecoration: "line-through"}} >${total+33 } </Text.span> }
               ${total} total
             </Text>
           </Stack>

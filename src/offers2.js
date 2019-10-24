@@ -2,7 +2,8 @@
 
 
 let offers2 = [
-  {
+  { 
+    id:0,
     type: "Economy",
     name: "Toyota Yaris or similar",
     seats: "4",
@@ -17,7 +18,8 @@ let offers2 = [
     dealset:[8,9]
   },
 
-  {
+  {  
+    id:1,
     type: "Compact",
     name: "Nissan Versa or similar",
     seats: "5",
@@ -31,7 +33,8 @@ let offers2 = [
     rating: "0.45", rated: "89",
     dealset:[9]
   },
-  {
+  { 
+    id:2,
     type: "Economy",
     name: "Hyundai Accent or similar",
     seats: "5",
@@ -45,7 +48,7 @@ let offers2 = [
    rating: "0.8",  rated: "615",
     dealset:[6]
   },
-  {
+  { id:3, 
     type: "Midsize",
     name: "Toyota Corolla or similar",
     seats: "5",
@@ -59,7 +62,7 @@ let offers2 = [
     rating: "0.45", rated: "89",
     dealset:[4]
   },
-  {
+  { id:4,
     type: "Compact",
     name: "Nissan Versa or similar",
     seats: "5",
@@ -73,7 +76,7 @@ let offers2 = [
    rating: "0.8",  rated: "615",
     dealset:[3]
   },
-  {
+  { id:5,
     type: "Standard",
     name: "Volkswagen Jetta or similar",
     seats: "5",
@@ -87,7 +90,7 @@ let offers2 = [
     rating: "0.45", rated: "89",
     dealset:[0]
   },
-  {
+  { id:6, 
     type: "Midsize",
     name: "Hyundai Elantra or similar",
     seats: "5",
@@ -101,7 +104,7 @@ let offers2 = [
    rating: "0.8",  rated: "615",
     dealset:[7,9]
   },
-  {
+  { id:7,
     type: "Special",
     name: "Compact or larger - Vehicle determined upon pick-up",
     seats: "5",
@@ -116,7 +119,7 @@ let offers2 = [
     rating: "0.84", rated:"1445",
     dealset:[1]
   },
-  {
+  { id: 8,
     type: "Special",
     name: "Compact or larger - Vehicle determined upon pick-up",
     seats: "5",
@@ -130,7 +133,7 @@ let offers2 = [
     rating: "0.87", rated: "388",
     dealset:[8,10]
   },
-  {
+  { id:9, 
     type: "Fullsize",
     name: "Toyota Camry or similar",
     seats: "5",
@@ -145,7 +148,7 @@ let offers2 = [
     rating: "0.45", rated: "89",
     dealset:[3,4]
   },
-  {
+  { id: 10,
     type: "Special Special Offer Car",
     name: "Wild Car, Managers Special Full Size Or Larger or similar",
     seats: "5",
@@ -160,7 +163,7 @@ let offers2 = [
     rating: "0.45", rated: "89",
     dealset:[6]
   },
-  {
+  { id:11, 
     type: "Standard",
     name: "Volkswagen Jetta or similar",
     seats: "5",
@@ -174,7 +177,7 @@ let offers2 = [
    rating: "0.8",  rated: "615",
     dealset:[0,1]
   },
-  {
+  { id: 12,
     type: "Fullsize",
     name: "Ford Fusion or similar",
     seats: "5",
@@ -189,7 +192,7 @@ let offers2 = [
     rating: "0.45", rated: "89",
     dealset:[4,9]
   },
-  {
+  { id: 13,
     type: "Fullsize",
     name: "Hyundai Sonata or similar",
     seats: "5",
@@ -203,7 +206,7 @@ let offers2 = [
    rating: "0.8",  rated: "615",
     dealset:[8,9]
   },
-  {
+  { id: 14,
     type: "Compact SUV",
     name: "Jeep Compass or similar",
     seats: "5",
@@ -218,7 +221,7 @@ let offers2 = [
     rating: "0.45", rated: "89",
     dealset:[8,9]
   },
-  {
+  { id: 15,
     type: "Mini Van",
     name: "Dodge Grand Caravan or similar",
     seats: "7",
@@ -233,7 +236,7 @@ let offers2 = [
     rating: "0.45", rated: "89",
     dealset:[8,9]
   },
-  {
+  { id: 16,
     type: "Mini Van",
     name: "Chrysler Pacifica, Dodge Grand Caravan or similar",
     seats: "7",
@@ -248,7 +251,7 @@ let offers2 = [
     rating: "0.94", rated: "276",
     dealset:[8,9]
   },
-  {
+  { id:17, 
     type: "Mini Van",
     name: "Dodge Caravan or similar",
     seats: "7",
@@ -262,7 +265,7 @@ let offers2 = [
     rating: "0.45", rated: "89",
     dealset:[8,9]
   },
-  {
+  { id: 18,
     type: "Midsize SUV",
     name: "Kia Sportage or similar",
     seats: "5",
@@ -277,7 +280,7 @@ let offers2 = [
     rating: "0.45", rated: "89",
     dealset:[8,9]
   },
-  {
+  { id: 19,
     type: "Economy",
     name: "Toyota Yaris or similar",
     seats: "4",
@@ -292,7 +295,7 @@ let offers2 = [
     rating: "0.84", rated:"1445",
     dealset:[8,9]
   },
-  {
+  { id:20, 
     type: "Compact",
     name: "Nissan Versa or similar",
     seats: "5",
@@ -308,7 +311,7 @@ let offers2 = [
     rating: "0.84", rated:"1445",
     dealset:[8,9]
   },
-  {
+  { id:21, 
     type: "Midsize",
     name: "Chevrolet Cruze or similar",
     seats: "5",
@@ -324,7 +327,7 @@ let offers2 = [
     rating: "0.84", rated:"1445",
     dealset:[8,9]
   },
-  {
+  { id: 22,
     type: "Economy",
     name: "Kia Rio or similar",
     seats: "5",
@@ -340,7 +343,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 23,
     type: "Mini Van",
     name: "Dodge Caravan or similar",
     seats: "7",
@@ -356,7 +359,7 @@ let offers2 = [
     rating: "0.87", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id:24, 
     type: "Compact",
     name: "Toyota Yaris Ia or similar",
     seats: "4",
@@ -372,7 +375,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 25,
     type: "Midsize SUV",
     name: "Jeep Renegade or similar",
     seats: "5",
@@ -387,7 +390,7 @@ let offers2 = [
    rating: "0.8",  rated: "615",
     dealset:[8,9]
   },
-  {
+  { id: 26,
     type: "Midsize",
     name: "Mini Countryman or similar",
     seats: "5",
@@ -403,7 +406,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 27,
     type: "Standard",
     name: "Volkswagen Jetta or similar",
     seats: "5",
@@ -419,7 +422,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 28,
     type: "Standard",
     name: "Toyota Corolla or similar",
     seats: "5",
@@ -435,7 +438,7 @@ let offers2 = [
     rating: "0.84", rated:"1445",
     dealset:[8,9]
   },
-  {
+  { id: 29,
     type: "Fullsize",
     name: "Nissan Altima or similar",
     seats: "5",
@@ -451,7 +454,7 @@ let offers2 = [
     rating: "0.84", rated:"1445",
     dealset:[8,9]
   },
-  {
+  { id: 30,
     type: "Fullsize",
     name: "Toyota Camry or similar",
     seats: "5",
@@ -467,7 +470,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 31,
     type: "Economy",
     name: "Toyota Yaris or similar",
     seats: "4",
@@ -482,7 +485,7 @@ let offers2 = [
     rating: "0.45", rated: "89",
     dealset:[8,9]
   },
-  {
+  { id: 32,
     type: "Mini Van",
     name: "Chrysler Pacifica, Dodge Grand Caravan or similar",
     seats: "7",
@@ -498,7 +501,7 @@ let offers2 = [
     rating: "0.94", rated: "276",
     dealset:[8,9]
   },
-  {
+  { id: 33,
     type: "Mini Van",
     name: "Dodge  Grand Caravan or similar",
     seats: "7",
@@ -514,7 +517,7 @@ let offers2 = [
     rating: "0.94", rated: "152",
     dealset:[8,9]
   },
-  {
+  { id: 34,
     type: "Mini Van",
     name: "Dodge Grand Caravan or similar",
     seats: "7",
@@ -530,7 +533,7 @@ let offers2 = [
     rating: "0.92", rated: "674",
     dealset:[8,9]
   },
-  {
+  { id: 35,
     type: "Compact",
     name: "Nissan Versa or similar",
     seats: "5",
@@ -545,7 +548,7 @@ let offers2 = [
     rating: "0.67", rated: "121",
     dealset:[8,9]
   },
-  {
+  { id: 36,
     type: "Economy",
     name: "Mitsubishi Mirage or similar",
     seats: "4",
@@ -561,7 +564,7 @@ let offers2 = [
     rating: "0.92", rated: "674",
     dealset:[8,9]
   },
-  {
+  { id: 37,
     type: "Compact",
     name: "Nissan Versa or similar",
     seats: "5",
@@ -577,7 +580,7 @@ let offers2 = [
     rating: "0.92", rated: "674",
     dealset:[8,9]
   },
-  {
+  { id: 38,
     type: "Midsize SUV",
     name: "Chevrolet Equinox or similar",
     seats: "5",
@@ -592,7 +595,7 @@ let offers2 = [
     greatdeal: null,
     rating: "0.79", rated: "388"
   },
-  {
+  { id:39, 
     type: "Mini Van",
     name: "Chrysler Pacifica or similar",
     seats: "7",
@@ -608,7 +611,7 @@ let offers2 = [
     rating: "0.76", rated: "649",
     dealset:[8,9]
   },
-  {
+  { id: 40,
     type: "Premium",
     name: "Mercedes-Benz Cla or similar",
     seats: "5",
@@ -624,7 +627,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id:41, 
     type: "Midsize",
     name: "Hyundai Elantra or similar",
     seats: "5",
@@ -640,7 +643,7 @@ let offers2 = [
     rating: "0.92", rated: "674",
     dealset:[8,9]
   },
-  {
+  { id: 42,
     type: "Standard",
     name: "VW Jetta or similar",
     seats: "5",
@@ -656,7 +659,7 @@ let offers2 = [
     rating: "0.92", rated: "674",
     dealset:[8,9]
   },
-  {
+  { id: 43,
     type: "Standard SUV",
     name: "Dodge Journey or similar",
     seats: "5",
@@ -672,7 +675,7 @@ let offers2 = [
     rating: "0.45", rated: "89",
     dealset:[8,9]
   },
-  {
+  { id: 44,
     type: "Economy",
     name: "Mitsubishi Mirage or similar",
     seats: "4",
@@ -688,7 +691,7 @@ let offers2 = [
     rating: "0.94", rated: "152",
     dealset:[8,9]
   },
-  {
+  { id: 45,
     type: "Economy",
     name: "Chevrolet Spark, Ford Fiesta or similar",
     seats: "4",
@@ -704,7 +707,7 @@ let offers2 = [
     rating: "0.94", rated: "276",
     dealset:[8,9]
   },
-  {
+  { id: 46,
     type: "Luxury",
     name: "Jaguar Xe or similar",
     seats: "5",
@@ -720,7 +723,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 47,
     type: "Midsize",
     name: "Kia Forte or similar",
     seats: "5",
@@ -735,7 +738,7 @@ let offers2 = [
     rating: "0.67", rated: "121",
     dealset:[8,9]
   },
-  {
+  { id: 48,
     type: "Fullsize",
     name: "Toyota Camry or similar",
     seats: "5",
@@ -750,7 +753,7 @@ let offers2 = [
     rating: "0.67", rated: "121",
     dealset:[8,9]
   },
-  {
+  { id: 49,
     type: "Compact",
     name: "Nissan Versa or similar",
     seats: "5",
@@ -766,7 +769,7 @@ let offers2 = [
     rating: "0.94", rated: "152",
     dealset:[8,9]
   },
-  {
+  { id:50, 
     type: "Midsize",
     name: "Hyundai Elantra or similar",
     seats: "5",
@@ -782,7 +785,7 @@ let offers2 = [
     rating: "0.94", rated: "152",
     dealset:[8,9]
   },
-  {
+  { id: 51,
     type: "Compact",
     name: "Ford Focus, Nissan Versa or similar",
     seats: "5",
@@ -798,7 +801,7 @@ let offers2 = [
     rating: "0.94", rated: "276",
     dealset:[8,9]
   },
-  {
+  { id: 52,
     type: "Midsize",
     name: "Mazda 3, Toyota Corola, Chevrolet Cruze, Hyundai Elantra or similar",
     seats: "5",
@@ -814,7 +817,7 @@ let offers2 = [
     rating: "0.94", rated: "276",
     dealset:[8,9]
   },
-  {
+  { id: 53,
     type: "Fullsize",
     name: "Ford Fusion or similar",
     seats: "5",
@@ -830,7 +833,7 @@ let offers2 = [
     rating: "0.92", rated: "674",
     dealset:[8,9]
   },
-  {
+  { id: 54,
     type: "Midsize SUV",
     name: "Toyota RAV4 or similar",
     seats: "5",
@@ -846,7 +849,7 @@ let offers2 = [
     rating: "0.92", rated: "674",
     dealset:[8,9]
   },
-  {
+  { id: 55,
     type: "Standard SUV",
     name: "Ford Edge or similar",
     seats: "5",
@@ -862,7 +865,7 @@ let offers2 = [
     rating: "0.92", rated: "674",
     dealset:[8,9]
   },
-  {
+  { id:56, 
     type: "Fullsize SUV",
     name: "Ford Explorer or similar",
     seats: "7",
@@ -878,7 +881,7 @@ let offers2 = [
     rating: "0.45", rated: "89",
     dealset:[8,9]
   },
-  {
+  { id: 57,
     type: "Premium",
     name: "Nissan Maxima or similar",
     seats: "5",
@@ -894,7 +897,7 @@ let offers2 = [
     rating: "0.92", rated: "674",
     dealset:[8,9]
   },
-  {
+  { id: 58,
     type: "Standard SportsCar",
     name: "Dodge Challenger or similar",
     seats: "4",
@@ -910,7 +913,7 @@ let offers2 = [
     rating: "0.92", rated: "674",
     dealset:[8,9]
   },
-  {
+  { id: 59,
     type: "Special",
     name: "Mercedes-Benz E-Class or similar",
     seats: "5",
@@ -926,7 +929,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 60,
     type: "Mini Van",
     name: "Chrysler Pacifica or similar",
     seats: "7",
@@ -942,7 +945,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 61,
     type: "Standard SUV",
     name: "Jeep Grand Cherokee or similar",
     seats: "5",
@@ -958,7 +961,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 62,
     type: "Standard",
     name: "Volkswagen Jetta or similar",
     seats: "5",
@@ -974,7 +977,7 @@ let offers2 = [
     rating: "0.94", rated: "152",
     dealset:[8,9]
   },
-  {
+  { id: 63,
     type: "Economy",
     name: "Toyota Yaris or similar",
     seats: "5",
@@ -990,7 +993,7 @@ let offers2 = [
     rating: "0.87", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 64,
     type: "Compact",
     name: "Toyota Yaris or similar",
     seats: "5",
@@ -1006,7 +1009,7 @@ let offers2 = [
     rating: "0.87", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 65,
     type: "Midsize Elite SUV",
     name: "Jeep Wrangler or similar",
     seats: "5",
@@ -1022,7 +1025,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 66,
     type: "Premium SUV",
     name: "Mercedes-Benz Gla or similar",
     seats: "5",
@@ -1038,7 +1041,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 67,
     type: "Economy Special",
     name: "Manager's Special 2 or 4 door or similar",
     seats: "4",
@@ -1053,7 +1056,7 @@ let offers2 = [
     rating: "0.94", rated: "276",
     dealset:[8,9]
   },
-  {
+  { id: 68,
     type: "Compact",
     name: "Ford Focus or similar",
     seats: "5",
@@ -1069,7 +1072,7 @@ let offers2 = [
     rating: "0.76", rated: "649",
     dealset:[8,9]
   },
-  {
+  { id: 69,
     type: "Economy",
     name: "Ford Fiesta or similar",
     seats: "5",
@@ -1085,7 +1088,7 @@ let offers2 = [
     rating: "0.76", rated: "649",
     dealset:[8,9]
   },
-  {
+  { id: 70,
     type: "Midsize",
     name: "Hyundai Elantra or similar",
     seats: "5",
@@ -1101,7 +1104,7 @@ let offers2 = [
     rating: "0.95", rated: "50",
     dealset:[8,9]
   },
-  {
+  { id: 71,
     type: "Standard",
     name: "Vw Jetta or similar",
     seats: "5",
@@ -1117,7 +1120,7 @@ let offers2 = [
     rating: "0.95", rated: "50",
     dealset:[8,9]
   },
-  {
+  { id: 72,
     type: "Standard",
     name: "VW Jetta or similar",
     seats: "5",
@@ -1132,7 +1135,7 @@ let offers2 = [
     greatdeal: null,
     rating: "0.94", rated: "276"
   },
-  {
+  { id: 73,
     type: "Midsize",
     name: "Hyundai Elantra or similar",
     seats: "5",
@@ -1148,7 +1151,7 @@ let offers2 = [
     rating: "0.76", rated: "649",
     dealset:[8,9]
   },
-  {
+  { id: 74,
     type: "Midsize",
     name: "Ford Focus or similar",
     seats: "5",
@@ -1164,7 +1167,7 @@ let offers2 = [
     rating: "0.87", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 75,
     type: "Standard",
     name: "Nissan Sentra or similar",
     seats: "5",
@@ -1180,7 +1183,7 @@ let offers2 = [
     rating: "0.87", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 76,
     type: "Fullsize",
     name: "Ford Fusion or similar",
     seats: "5",
@@ -1196,7 +1199,7 @@ let offers2 = [
     rating: "0.94", rated: "152",
     dealset:[8,9]
   },
-  {
+  { id: 77,
     type: "Fullsize",
     name: "Ford Fusion or similar",
     seats: "5",
@@ -1212,7 +1215,7 @@ let offers2 = [
     rating: "0.95", rated: "50",
     dealset:[8,9]
   },
-  {
+  { id: 78,
     type: "Fullsize",
     name: "Chevrolet Malibu, Toyota Camry or similar",
     seats: "5",
@@ -1228,7 +1231,7 @@ let offers2 = [
     rating: "0.94", rated: "276",
     dealset:[8,9]
   },
-  {
+  { id: 79,
     type: "Mini Van",
     name: "Dodge Caravan or similar",
     seats: "7",
@@ -1243,7 +1246,7 @@ let offers2 = [
    rating: "0.8",  rated: "615",
     dealset:[8,9]
   },
-  {
+  { id: 80,
     type: "Luxury SUV",
     name: "Mercedes-Benz Glc or similar",
     seats: "5",
@@ -1259,7 +1262,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 81,
     type: "Economy",
     name: "Mitsubishi Mirage or similar",
     seats: "4",
@@ -1275,7 +1278,7 @@ let offers2 = [
     rating: "0.95", rated: "50",
     dealset:[8,9]
   },
-  {
+  { id: 82,
     type: "Economy",
     name: "Chevrolet Spark, Ford Fiesta or similar",
     seats: "4",
@@ -1291,7 +1294,7 @@ let offers2 = [
     rating: "0.94", rated: "276",
     dealset:[8,9]
   },
-  {
+  { id: 83,
     type: "Economy Special",
     name: "Manager's Special 2 or 4 door or similar",
     seats: "4",
@@ -1306,7 +1309,7 @@ let offers2 = [
     rating: "0.94", rated: "276",
     dealset:[8,9]
   },
-  {
+  { id: 84,
     type: "Fullsize",
     name: "Toyota Camry or similar",
     seats: "5",
@@ -1322,7 +1325,7 @@ let offers2 = [
     rating: "0.87", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 85,
     type: "Premium",
     name: "Buick Regal or similar",
     seats: "5",
@@ -1338,7 +1341,7 @@ let offers2 = [
     rating: "0.94", rated: "276",
     dealset:[8,9]
   },
-  {
+  { id:86, 
     type: "Compact SUV",
     name: "Buick Encore or similar",
     seats: "5",
@@ -1354,7 +1357,7 @@ let offers2 = [
     rating: "0.84", rated:"1445",
     dealset:[8,9]
   },
-  {
+  { id: 87,
     type: "Midsize SUV",
     name: "Toyota RAV4 or similar",
     seats: "5",
@@ -1370,7 +1373,7 @@ let offers2 = [
     rating: "0.94", rated: "152",
     dealset:[8,9]
   },
-  {
+  { id: 88,
     type: "Standard SUV",
     name: "Ford Edge or similar",
     seats: "5",
@@ -1386,7 +1389,7 @@ let offers2 = [
     rating: "0.94", rated: "152",
     dealset:[8,9]
   },
-  {
+  { id: 89,
     type: "Standard Pickup Regular Cab",
     name: "Nissan Frontier or similar",
     seats: "4",
@@ -1402,7 +1405,7 @@ let offers2 = [
     rating: "0.95", rated: "50",
     dealset:[8,9]
   },
-  {
+  { id: 90,
     type: "Compact",
     name: "Nissan Versa or similar",
     seats: "5",
@@ -1418,7 +1421,7 @@ let offers2 = [
     rating: "0.95", rated: "50",
     dealset:[8,9]
   },
-  {
+  { id: 91,
     type: "Compact",
     name: "Ford Focus, Nissan Versa or similar",
     seats: "5",
@@ -1434,7 +1437,7 @@ let offers2 = [
     rating: "0.94", rated: "276",
     dealset:[8,9]
   },
-  {
+  { id: 92,
     type: "Midsize",
     name: "Mazda 3, Toyota Corola, Chevrolet Cruze, Hyundai Elantra or similar",
     seats: "5",
@@ -1450,7 +1453,7 @@ let offers2 = [
     rating: "0.94", rated: "276",
     dealset:[8,9]
   },
-  {
+  { id: 93,
     type: "Luxury SportsCar",
     name: "Cadillac XTS or similar",
     seats: "5",
@@ -1466,7 +1469,7 @@ let offers2 = [
     rating: "0.94", rated: "276",
     dealset:[8,9]
   },
-  {
+  { id: 94,
     type: "Premium SUV",
     name: "Chevy Suburban or similar",
     seats: "8",
@@ -1482,7 +1485,7 @@ let offers2 = [
     rating: "0.92", rated: "674",
     dealset:[8,9]
   },
-  {
+  { id: 95,
     type: "Premium SUV",
     name: "Chevy Suburban or similar",
     seats: "8",
@@ -1498,7 +1501,7 @@ let offers2 = [
     rating: "0.94", rated: "152",
     dealset:[8,9]
   },
-  {
+  { id: 96,
     type: "Mini Van",
     name: "Dodge Grand Caravan or similar",
     seats: "7",
@@ -1514,7 +1517,7 @@ let offers2 = [
     rating: "0.95", rated: "50",
     dealset:[8,9]
   },
-  {
+  { id: 97,
     type: "Midsize SUV",
     name: "Ford Escape or similar",
     seats: "5",
@@ -1530,7 +1533,7 @@ let offers2 = [
     rating: "0.84", rated:"1445",
     dealset:[8,9]
   },
-  {
+  { id: 98,
     type: "Fullsize SUV",
     name: "Ford Expedition or similar",
     seats: "7",
@@ -1546,7 +1549,7 @@ let offers2 = [
     rating: "0.92", rated: "674",
     dealset:[8,9]
   },
-  {
+  { id: 99,
     type: "Mini Van",
     name: "Chrysler Pacifica or similar",
     seats: "7",
@@ -1562,7 +1565,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 100,
     type: "Standard Pickup Regular Cab",
     name: "Nissan Frontier or similar",
     seats: "4",
@@ -1578,7 +1581,7 @@ let offers2 = [
     rating: "0.92", rated: "674",
     dealset:[8,9]
   },
-  {
+  { id: 101,
     type: "Standard",
     name: "Volkswagen Jetta or similar",
     seats: "5",
@@ -1594,7 +1597,7 @@ let offers2 = [
     rating: "0.76", rated: "649",
     dealset:[8,9]
   },
-  {
+  { id: 102,
     type: "Fullsize",
     name: "Ford Fusion or similar",
     seats: "5",
@@ -1610,7 +1613,7 @@ let offers2 = [
     rating: "0.76", rated: "649",
     dealset:[8,9]
   },
-  {
+  { id: 103,
     type: "Special SUV",
     name: "Range Rover Velar or similar",
     seats: "5",
@@ -1626,7 +1629,7 @@ let offers2 = [
     rating: "0.79", rated: "388",
     dealset:[8,9]
   },
-  {
+  { id: 104,
     type: "Luxury",
     name: "Cadillac XTS or similar",
     seats: "5",
