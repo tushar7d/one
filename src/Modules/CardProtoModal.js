@@ -13,6 +13,7 @@ let CardProtoModal = props => {
       minHeight="11px"
       mb="3"
       mx={["0px", "0px", "2"]}
+      
     >
       <ImageSection link={offer.image} />
       <InfoSectionm offer={offer} />

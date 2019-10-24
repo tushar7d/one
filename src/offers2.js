@@ -593,7 +593,8 @@ let offers2 = [
     daily: "35",
     total: "266",
     greatdeal: null,
-    rating: "0.79", rated: "388"
+    rating: "0.79", rated: "388",
+    dealset:[8,9]
   },
   { id:39, 
     type: "Mini Van",
@@ -1133,7 +1134,8 @@ let offers2 = [
     daily: "42",
     total: "316",
     greatdeal: null,
-    rating: "0.94", rated: "276"
+    rating: "0.94", rated: "276",
+    dealset:[8,9]
   },
   { id: 73,
     type: "Midsize",

@@ -7,6 +7,7 @@ import DynamicSection from "../Cards/DynamicSection";
 import dealset from "../deal";
 import InfoSection from "../Cards/InfoSection";
 import { Link } from "@reach/router";
+import CardProtoVertical  from '../Modules/CardProtoVertical'
 
 let ScrollContainer = props => {
   return (
@@ -33,6 +34,7 @@ function Csrm(props) {
       <Layout>
         <ScrollContainer>
           {props.inventory.map((card, index) => {
+            
             return (
               <div
                 key={index}
@@ -40,7 +42,8 @@ function Csrm(props) {
                   handleClick(card);
                 }}
               >
-                <CardProtoModal offer={card} />
+              {card.dealset.length >1 ? <CardProtoModal offer={card} />: <CardProtoVertical index={index}  offer={card}/>}
+                
               </div>
             );
           })}
